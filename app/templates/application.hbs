@@ -1,0 +1,10 @@
+<p>
+  <button {{on "click" (perform this.parent "all")}} type="button">all()</button>
+  <button {{on "click" (perform this.parent "race")}} type="button">race()</button>
+</p>
+{{this.status}}
+<button {{on "click" this.doTasks}}>
+    Do tasks
+</button>
+
+<MyComponent/>
